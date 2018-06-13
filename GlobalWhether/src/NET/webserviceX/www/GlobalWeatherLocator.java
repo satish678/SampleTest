@@ -4,7 +4,9 @@
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
-
+//
+//
+//
 package NET.webserviceX.www;
 
 public class GlobalWeatherLocator extends org.apache.axis.client.Service implements NET.webserviceX.www.GlobalWeather {
@@ -21,7 +23,7 @@ public class GlobalWeatherLocator extends org.apache.axis.client.Service impleme
         super(wsdlLoc, sName);
     }
 
-    // Use to get a proxy class for GlobalWeatherSoap
+    //   Use to get a proxy class for GlobalWeatherSoap
     private java.lang.String GlobalWeatherSoap_address = "http://www.webservicex.com/globalweather.asmx";
 
     public java.lang.String getGlobalWeatherSoapAddress() {
